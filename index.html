@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CV Axel</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Link icon --><script src="https://kit.fontawesome.com/1831542686.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+
+    <body>
+
+        <nav id="scrollspy-nav" class="navbar navbar-expand-md navbar-dark sticky-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">Moi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Expérience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+          <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div id="myModal" class="modal fade" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1>Informations</h1>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Ce CV contient des informations fausses tel que le niveau des compétences, dans le but d'alimenter le CV.</p>
+                                    <p>Merci de votre compréhension.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <input class="btn btn-primary" value="D'accord" onclick="$('#myModal').modal('hide')">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+        <section id="about" class="container-fluid">
+            <div class="col-xl-8 col-md-4 profile-picture">
+                <img src="images/me.png" alt="Axel" class="rounded-circle moi">
+            </div>
+            <div class="heading">
+                <h1>Hello, c'est moi Axel</h1>
+                <h3>Aspirant WebMaster</h3>
+                <a href="docs/CV-Axel.pdf" class="button1" target="_blank">Télécharger CV</a>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="red-divider"></div>
+            <div class="heading">
+                <h2>Compétences</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                            <h5>HTML 85%</h5>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                            <h5>CSS 85%</h5>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            <h5>JAVASCRIPT 70%</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                            <h5>JQUERY 85%</h5>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                            <h5>BOOTSTRAP 80%</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <div class="white-divider"></div>
+                <div class="heading">
+                    <h2>Expérience Développement</h2>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-badge"><span><i class="fas fa-briefcase"></i></span></div>
+                        <div class="timeline-panel-container">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>BOOTSTRAP</h3>
+                                    <h4>Développement de ce CV</h4>
+                                    <p class="text-muted"><small><i class="far fa-clock"></i> Février 2021</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Développement de ce CV avec BOOTSTRAP</p>
+                                    <p>CV Responsive Web Design</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><span><i class="fas fa-briefcase"></i></span></div>
+                        <div class="timeline-panel-container-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>HTML - CSS</h3>
+                                    <h4>Développement page web</h4>
+                                    <p class="text-muted"><small><i class="far fa-clock"></i> Février 2021</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Développement d'une page d'accueil pour un site web </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><span><i class="fas fa-briefcase"></i></span></div>
+                        <div class="timeline-panel-container">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>JAVASCRIPT</h3>
+                                    <h4>Développement Snake en JS</h4>
+                                    <p class="text-muted"><small><i class="far fa-clock"></i> Février 2021</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Développement du jeu snake grâce à Javascript</p>
+                                    <p>Modification du design du jeu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><span><i class="fas fa-briefcase"></i></span></div>
+                        <div class="timeline-panel-container-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>JQUERY</h3>
+                                    <h4>Développement page web</h4>
+                                    <p class="text-muted"><small><i class="far fa-clock"></i> Février 2021</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Développement d'une page web grâce à JQUERY</p>
+                                    <p>Mise en place d'un menu d'images noires et blanches qui deviennent en couleur et affiche plus d'informations quand on clique dessus</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="red-divider"></div>
+                <div class="heading">
+                    <h2>Education</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="education-block">
+                            <h5>2017 - 2020</h5>
+                            <span><i class="fas fa-graduation-cap"></i></span>
+                            <h3>Lycée Philippe Lebon - Joinville</h3>
+                            <h4>Bac STI2D - Mention Bien</h4>
+                            <div class="red-divider"></div>
+                            <p>Prototypage (impression 3D, découpe laser, etc.)</p>
+                            <p>Simulation mécanique</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="education-block">
+                            <h5>2021 - 2024</h5>
+                            <span><i class="fas fa-graduation-cap"></i></span>
+                            <h3>IUT Troyes </h3>
+                            <h4>DUT MMI - Troyes</h4>
+                            <div class="red-divider"></div>
+                            <p>Développement multimédia et Infographie</p>
+                            <p>Intégration, gestion de contenu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <div class="white-divider"></div>
+                <div class="heading">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a class="thumbnail" href="projet-portfolio/Travel-Agency/index.html" target="_blank">
+                        <img src="images/Travel-Agency.png" alt="Travel Agency" class="img-thumbnail">
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a class="thumbnail" href="projet-portfolio/Snaxel/index.html" target="_blank">
+                        <img src="images/Snaxel.png" alt="google translate" class="img-thumbnail">
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a class="thumbnail" href="projet-portfolio/Top5-Actrice/index.html" target="_blank">
+                        <img src="images/Top5.png" alt="twitter video" class="img-thumbnail">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center">
+            <a href="#about" value="remonter" id="button2">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+            <h5>© 2021 AXEL DUQUELZAR</h5>
+        </footer>
+
+        <script>
+            
+        </script>
+
+    </body>
+</html>
